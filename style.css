@@ -1,0 +1,216 @@
+/* Genel */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #333;
+      background: #fff;
+    }
+
+    /* ── CONTAINER ── */
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* ── HEADER ── */
+    header {
+      background-color: #1e2530;
+      padding: 16px 0;
+    }
+
+    header .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    header .logo {
+      color: #fff;
+      font-weight: 700;          /* bold — Image 2'deki fark */
+      font-size: 1rem;
+    }
+
+    header nav a {
+      color: #9aa3b0;            /* soluk gri — Image 2'deki fark */
+      text-decoration: none;
+      margin-left: 32px;
+      font-size: 0.9rem;
+    }
+
+    header nav a:hover { color: #fff; }
+
+    /* ── HERO ── */
+    .hero {
+      background-color: #1e2530;
+      padding: 60px 0 80px;
+    }
+
+    .hero .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 48px;
+    }
+
+    .hero-text {
+      max-width: 380px;          /* daha dar — Image 2'deki fark */
+    }
+
+    .hero-text h1 {
+      color: #fff;
+      font-size: 2.4rem;
+      font-weight: 800;
+      line-height: 1.2;
+      margin-bottom: 16px;
+    }
+
+    .hero-text p {
+      color: #9aa3b0;
+      font-size: 0.9rem;
+      line-height: 1.6;
+      margin-bottom: 24px;
+    }
+
+    .btn-primary {
+      background-color: #3b7de8;
+      color: #fff;
+      border: none;
+      padding: 10px 22px;
+      border-radius: 4px;
+      font-size: 0.9rem;
+      cursor: pointer;
+      font-weight: 600;
+    }
+
+    .btn-primary:hover { background-color: #2f6dd4; }
+
+    .hero-image {
+      width: 340px;
+      height: 200px;
+      background-color: #6b7280; /* koyu gri — Image 2'deki fark */
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ccc;
+      font-size: 0.85rem;
+      flex-shrink: 0;
+    }
+
+    /* ── INFO SECTION ── */
+    .info {
+      padding: 60px 0;
+      text-align: center;
+    }
+
+    .info h2 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 40px;
+      color: #1e2530;
+    }
+
+    .cards {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      width: 160px;              /* daha küçük — Image 2'deki fark */
+      text-align: center;
+    }
+
+    .card-image {
+      width: 100%;
+      height: 130px;
+      border: 2px solid #3b7de8;
+      border-radius: 8px;
+      margin-bottom: 12px;
+      background: #fff;
+    }
+
+    .card p {
+      font-size: 0.78rem;
+      color: #6b7280;
+      line-height: 1.5;
+    }
+
+    /* ── QUOTE ── */
+    .quote {
+      background-color: #e8e8e8;
+      padding: 80px 0;
+      text-align: center;
+    }
+
+    .quote blockquote {
+      max-width: 620px;
+      margin: 0 auto 24px;
+      font-style: italic;
+      font-size: 1.6rem;         /* büyük font — Image 2'deki fark */
+      color: #1e2530;
+      font-weight: 400;
+      line-height: 1.5;
+    }
+
+    .quote cite {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 0.95rem;
+      color: #1e2530;
+    }
+
+    /* ── CALL TO ACTION ── */
+    .cta {
+      padding: 48px 0;
+    }
+
+    .cta-box {
+      max-width: 680px;
+      margin: 0 auto;
+      background-color: #3b7de8;
+      border-radius: 8px;
+      padding: 32px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .cta-text h3 {
+      color: #fff;
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+
+    .cta-text p {
+      color: #c5d8f8;
+      font-size: 0.85rem;
+    }
+
+    .btn-outline {
+      background: transparent;
+      color: #fff;
+      border: 2px solid #fff;
+      padding: 10px 22px;
+      border-radius: 4px;
+      font-size: 0.9rem;
+      cursor: pointer;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+
+    .btn-outline:hover { background: rgba(255,255,255,0.15); }
+
+    /* ── FOOTER ── */
+    footer {                      /* yeni bölüm — Image 2'deki fark */
+      background-color: #1e2530;
+      color: #9aa3b0;
+      text-align: center;
+      padding: 24px;
+      font-size: 0.85rem;
+    }
+  
+
